@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-bootstrap-typeahead/css/Typeahead.css';
+import Pokemons from './components/Pokemons';
+import Header from './components/Header';
+import ScrollTop from './components/ScrollTop';
+import Details from './components/Details';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <ScrollTop />
+        <Switch>
+          <Route path="/details/:name">
+            <Details />
+          </Route>
+          <Route exact path="/">
+            <Pokemons />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
