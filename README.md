@@ -36,8 +36,8 @@ npm start
 
 ### About Libraries
 
-- axios found [here]('https://github.com/axios/axios)
-- bootstrap found [here]('https://github.com/twbs/bootstrap')
-- js-search found [here]('https://github.com/bvaughn/js-search')
-- react-bootstrap-typeahead found [here]('https://github.com/ericgio/react-bootstrap-typeahead')
-- react-router-dom found [here]('https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom')
+- axios found [here](https://github.com/axios/axios)
+- bootstrap found [here](https://github.com/twbs/bootstrap)
+- js-search found [here](https://github.com/bvaughn/js-search)
+- react-bootstrap-typeahead found [here](https://github.com/ericgio/react-bootstrap-typeahead)
+- react-router-dom found [here](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
